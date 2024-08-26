@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h2>Simple Web Calculator</h2>
+
+<form method="post">
+    <div>
+        <label for="FirstNumber">First Number:</label>
+        <input type="text" id="FirstNumber" name="FirstNumber" value="@Model.FirstNumber" />
+    </div>
+    <div>
+        <label for="SecondNumber">Second Number:</label>
+        <input type="text" id="SecondNumber" name="SecondNumber" value="@Model.SecondNumber" />
+    </div>
+    <div>
+        <label for="Operation">Operation:</label>
+        <select id="Operation" name="Operation">
+            <option value="Add" selected>Add (+)</option>
+            <option value="Subtract">Subtract (-)</option>
+            <option value="Multiply">Multiply (*)</option>
+            <option value="Divide">Divide (/)</option>
+        </select>
+    </div>
+    <div>
+        <input type="submit" value="Calculate" />
+    </div>
+</form>
+
+@if (Model.Result != null)
+{
+    <h3>Result: @Model.Result</h3>
+}
