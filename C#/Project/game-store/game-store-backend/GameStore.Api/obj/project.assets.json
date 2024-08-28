@@ -3612,11 +3612,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\.Net\\arnab-dotnet-roadmap\\C#\\Project\\game-store\\GameStore.Api\\GameStore.Api.csproj",
+      "projectUniqueName": "D:\\.Net\\arnab-dotnet-roadmap\\C#\\Project\\game-store\\game-store-backend\\GameStore.Api\\GameStore.Api.csproj",
       "projectName": "GameStore.Api",
-      "projectPath": "D:\\.Net\\arnab-dotnet-roadmap\\C#\\Project\\game-store\\GameStore.Api\\GameStore.Api.csproj",
+      "projectPath": "D:\\.Net\\arnab-dotnet-roadmap\\C#\\Project\\game-store\\game-store-backend\\GameStore.Api\\GameStore.Api.csproj",
       "packagesPath": "C:\\Users\\Arnabjyoti Ray\\.nuget\\packages\\",
-      "outputPath": "D:\\.Net\\arnab-dotnet-roadmap\\C#\\Project\\game-store\\GameStore.Api\\obj\\",
+      "outputPath": "D:\\.Net\\arnab-dotnet-roadmap\\C#\\Project\\game-store\\game-store-backend\\GameStore.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Arnabjyoti Ray\\AppData\\Roaming\\NuGet\\NuGet.Config"

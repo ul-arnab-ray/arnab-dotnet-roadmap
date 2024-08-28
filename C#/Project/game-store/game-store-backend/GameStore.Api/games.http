@@ -8,14 +8,14 @@ POST http://localhost:5069/games
 Content-Type: application/json
 
 {
-    "name": "Air Force II",
-    "genreId": 2,
+    "name": "Air Force I",
+    "genreId": 1,
     "price": 15.99,
     "ReleaseData": "2024-01-24"
 }
 
 ###
-PUT http://localhost:5069/games/4
+PUT http://localhost:5069/games/2
 Content-Type: application/json 
 
 {
