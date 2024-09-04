@@ -2,7 +2,18 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about building Web apps with ASP.NET Core.</p>
+<div class="container text-center mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm p-4 mb-5 bg-white rounded">
+                <h1 class="display-4 text-primary">Welcome to Movie Store!</h1>
+                <p class="lead text-secondary mt-4">Your ultimate destination for exploring, discovering, and enjoying
+                    the best movies across all genres.</p>
+                <hr class="my-4">
+                <p class="text-muted">Browse our collection, find your favorites, and experience cinematic magic like
+                    never before.</p>
+                <a href="@Url.Action("Index", "Movies")" class="btn btn-primary btn-lg mt-3">Browse Movies</a>
+            </div>
+        </div>
+    </div>
 </div>
